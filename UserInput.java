@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// User Input in Java
 public class UserInput {
     public static void main(String[] args) {
 
@@ -12,7 +12,12 @@ public class UserInput {
 
         System.out.println("You entered: " + num1);
 
-        float 
+        float num2;
+
+        System.out.println("Enter second number: ");
+        num2 = sc.nextFloat();
+
+        System.out.println("You entered: " + num2);
 
     }
 }
