@@ -1,31 +1,42 @@
-
 public class FunctionProgram {
-   public FunctionProgram() {
-   }
 
-   public void hello() {
-      System.out.println("Hello");
-   }
+    // Function without parameter and without return statement
 
-   public void add(int var1, int var2) {
-      System.out.println("Addition of a and b :- " + (var1 + var2));
-   }
+    public void hello(){
+        System.out.println("Hello");
+    }
 
-   public int data() {
-      return 5;
-   }
+    // Function with parameter and without return statement
 
-   public int sum(int var1, int var2, int var3) {
-      return var1 + var2 + var3;
-   }
+    public void add(int a,int b){
+        System.out.println("Addition of a and b :- "+(a+b));
+    }
 
-   public static void main(String[] var0) {
-      FunctionProgram var1 = new FunctionProgram();
-      var1.hello();
-      var1.add(5, 6);
-      int var2 = var1.data();
-      System.out.println("Value of a :- " + var2);
-      int var3 = var1.sum(4, 5, 6);
-      System.out.println("Result :- " + var3);
-   }
+    // Function without parameter and with return statement
+
+    public int data(){
+        return 5;
+    }
+
+    // Function with parameter and with return statement
+
+    public int sum(int a,int b,int c){
+        return a+b+c;
+    }
+    
+    public static void main(String[] args) {
+
+        FunctionProgram functionProgram=new FunctionProgram();
+        
+        functionProgram.hello();
+
+        functionProgram.add(5,6);
+
+        int a=functionProgram.data();
+        System.out.println("Value of a :- "+a);
+
+        int result=functionProgram.sum(4,5,6);
+        System.out.println("Result :- "+result);
+
+    }
 }
