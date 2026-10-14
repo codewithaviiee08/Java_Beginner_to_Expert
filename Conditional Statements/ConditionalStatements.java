@@ -9,7 +9,7 @@ public class ConditionalStatements{
         // if else if 
         // switch cases 
 
-        int day=1;
+        int day=15;
 
         if(day==1){
             System.out.println("Monday");
