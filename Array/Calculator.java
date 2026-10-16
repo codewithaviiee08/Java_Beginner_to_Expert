@@ -44,7 +44,7 @@ public class Calculator {
             
         }
 
-        int average = Sum1 / numbers.length;
+        float average =(float) Sum1 / numbers.length;
         System.out.println("Sum: " + Sum1);
         System.out.println("Average: " + average);
         
